@@ -1,0 +1,65 @@
+.footer {
+  width: 100%;
+  background: #444240;
+}
+
+.footer__container {
+  padding: 67px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 118px;
+}
+
+.footer__info {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  align-self: flex-start;
+
+  .logo {
+    margin-bottom: 23px;
+
+    .logo__text {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+      color: #FFFFFF;
+    }
+  }
+
+  .footer__phone-number {
+    margin-bottom: 15px;
+  }
+}
+
+.footer-nav {
+  .footer-nav__title {
+    margin-bottom: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .about__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .about__nav-item a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.scss">
+    <title>Conquest</title>
+  </head>
+  <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="logo">
+          <a href="#">
+            <img class="logo__img" src="./src/assets/icons/conquest-logo.png" alt="logo"/>
+            <span class="logo__text">CONQUEST</span>
+          </a>
+        </div>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Акции</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <a href="#" class="search-link">
+            <span class="search-link__icon">
+              <img src="./src/assets/icons/loupe.svg" alt="" class="search-link__img">
+            </span>
+          </a>
+          <a href="#" class="wishlist-link">
+            <span class="wishlist-link__icon">
+              <img src="./src/assets/icons/favorites.svg" alt="" class="wishlist-link__img">
+              <span class="wishlist-link__badge">1</span>
+            </span>
+          </a>
+          <a href="#" class="cart-link">
+            <span class="cart-link__icon">
+              <img src="./src/assets/icons/cart.svg" alt="" class="cart-link__img">
+            </span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="head-banner">
+        <div class="head-banner__container">
+          <div class="head-banner__content content">
+            <span class="line"></span>
+            <div class="content__block">
+              <div class="content__title">
+                <h1 class="content__main-title">
+                  Весна/Лето 2019
+                </h1>
+                <h2 class="content__subtitle">Коллекция</h2>
+              </div>
+              <div class="content__text">
+                Швейцарские часы в наличии в Москве и с доставкой по всему миру
+              </div>
+              <button class="button button_grey">Смотреть каталог</button>
+            </div>
+          </div>
+          <div class="head-banner__show show">
+            <img src="./src/assets/img/semicircle.svg" alt="" class="show__background-image">
+            <div class="show__price">
+              <span class="show__text">22 000 ₽</span>
+              <span class="line"></span>
+            </div>
+            <div class="show__main-image">
+              <img src="./src/assets/img/watch_main.png" alt="watch_main">
+            </div>
+            <div class="show__info">
+              <span class="line"></span>
+              <span class="show__text">28 мм диаметр</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular-products">
+        <div class="popular-products__container">
+          <div class="popular-products__title">Популярные модели</div>
+          <div class="popular-products__catalog-link">
+            <a href="#">
+              <span class="show__text">Смотреть все</span>
+              <span class="line line_underline"></span>
+            </a>
+          </div>
+          <div class="popular-products__items">
+            <div class="item-card">
+              <div class="item-card__content">
+                <div class="item-card__title">RADO</div>
+                <div class="item-card__price">65 300 ₽</div>
+                <div class="item-card__image">
+                  <img src="./src/assets/img/watch_1.png" alt="watch_1">
+                </div>
+                <div class="item-card__button">
+                  <a href="#">
+                    <span class="line line_short"></span>
+                    <span class="show__text">Подробнее</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item-card">
+              <div class="item-card__content">
+                <div class="item-card__title">BVLGARI</div>
+                <div class="item-card__price">81 700 ₽</div>
+                <div class="item-card__image">
+                  <img src="./src/assets/img/watch_3.png" alt="watch_3">
+                </div>
+                <div class="item-card__button">
+                  <a href="#">
+                    <span class="line line_short"></span>
+                    <span class="show__text">Подробнее</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item-card">
+              <div class="item-card__content">
+                <div class="item-card__title">BVLGARI</div>
+                <div class="item-card__price">72 700 ₽</div>
+                <div class="item-card__image">
+                  <img src="./src/assets/img/watch_4.png" alt="watch_4">
+                </div>
+                <div class="item-card__button">
+                  <a href="#">
+                    <span class="line line_short"></span>
+                    <span class="show__text">Подробнее</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="catalog-banner">
+        <div class="catalog-banner__container">
+          <div class="catalog-banner__content content">
+            <div class="content__image">
+              <img src="./src/assets/img/photo_banner.png" alt="photo_banner">
+            </div>
+            <div class="content__text-block text-block">
+              <div class="text-block__title">Подлинное качество</div>
+              <div class="text-block__text">
+                Все часы производятся в Швейцарии и имеют сертификаты качества.
+                Настоящие швейцарские часы — это предмет гордости и престижа.
+              </div>
+              <button class="button button_brown">Смотреть каталог</button>
+            </div>
+          </div>
+          <div class="pagination">
+            <a href="#" class="arrow arrow-left"></a>
+            <div class="pagination__numbers">01</div>
+            <a href="#" class="arrow arrow-right"></a>
+          </div>
+          <div class="catalog-banner__sm-ellipse">
+            <img src="./src/assets/img/sm_ellipse_banner.svg" alt="sm-ellipse">
+          </div>
+          <div class="catalog-banner__big-ellipse">
+            <img src="./src/assets/img/big_ellipse_banner.svg" alt="big-ellipse">
+          </div>
+        </div>
+      </section>
+      <section class="news-banner">
+        <div class="news-banner__container">
+          <div class="news-banner__content">
+            <div class="news-banner__title">Следите за нашими новостями</div>
+            <div class="news-banner__text">
+              Подписывайтесь на <strong>@conquest_watch</strong> в соцсетях и узнавайте о новинках и акциях первыми.
+            </div>
+            <div class="news-banner__links">
+              <a href="#">
+                <img src="./src/assets/icons/instagram_icon.svg" alt="instagram">
+              </a>
+              <a href="#">
+                <img src="./src/assets/icons/facebook_icon.svg" alt="facebook">
+              </a>
+              <a href="#">
+                <img src="./src/assets/icons/twitter_icon.svg" alt="twitter">
+              </a>
+            </div>
+          </div>
+          <div class="news-banner__images-grid">
+            <img class="image-1" src="./src/assets/img/photo_1.png" alt="photo_1">
+            <img class="image-2" src="./src/assets/img/photo_2.png" alt="photo_2">
+            <img class="image-3" src="./src/assets/img/photo_3.png" alt="photo_2">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__info">
+          <div class="logo">
+            <a href="#">
+              <img class="logo__img" src="./src/assets/icons/footer-logo.png" alt="footer-logo"/>
+              <span class="logo__text">CONQUEST</span>
+            </a>
+          </div>
+          <div class="footer__phone-number">8 (499) 450-47-97</div>
+          <div class="footer__mail">info@conquest.watch.ru</div>
+        </div>
+        <nav class="footer-nav about">
+          <div class="footer-nav__title">о компании</div>
+          <ul class="about__nav-list">
+            <li class="about__nav-item"><a href="#">Наши магазины</a></li>
+            <li class="about__nav-item"><a href="#">Вакансии</a></li>
+            <li class="about__nav-item"><a href="#">Сертификаты</a></li>
+            <li class="about__nav-item"><a href="#">Отзывы</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav about">
+          <div class="footer-nav__title">покупателям</div>
+          <ul class="about__nav-list">
+            <li class="about__nav-item"><a href="#">Каталог товаров</a></li>
+            <li class="about__nav-item"><a href="#">Как заказать?</a></li>
+            <li class="about__nav-item"><a href="#">FAQ</a></li>
+            <li class="about__nav-item"><a href="#">Корпоративным клиентам</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav about">
+          <div class="footer-nav__title">оплата и доставка</div>
+          <ul class="about__nav-list">
+            <li class="about__nav-item"><a href="#">Способы оплаты</a></li>
+            <li class="about__nav-item"><a href="#">Время доставки</a></li>
+            <li class="about__nav-item"><a href="#">Гарантии и ремонт</a></li>
+            <li class="about__nav-item"><a href="#">Возврат и компенсация</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+  </body>
+</html>
